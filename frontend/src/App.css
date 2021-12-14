@@ -1,0 +1,51 @@
+* body {
+  background-image: url('./christmas-deco.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  margin-top: 10%;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.question-count {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.question-text {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+.score-section {
+  margin-top: 45%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 14px;
+  min-width: 100px;
+  color: #141212;
+  background-color: #a2a8bf8c;
+  border-radius: 5px;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #234668;
+  cursor: pointer;
+}
